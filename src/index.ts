@@ -1,0 +1,1 @@
+console.log("KitchenMate API running...");
