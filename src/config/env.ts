@@ -27,7 +27,7 @@ export const env = {
   EXPIRING_SOON_DAYS: Number(process.env.EXPIRING_SOON_DAYS ?? 3),
 
 
-  SEED_ADMIN_EMAIL: process.env.SEED_ADMIN_EMAIL ?? "admin@pantrypal.com",
+  SEED_ADMIN_EMAIL: process.env.SEED_ADMIN_EMAIL ?? "admin@kitchenmate.com",
   SEED_ADMIN_PASSWORD: process.env.SEED_ADMIN_PASSWORD ?? "Admin@12345"
 }
 
