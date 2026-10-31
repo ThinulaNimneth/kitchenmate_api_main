@@ -4,5 +4,5 @@ import {env} from "./env"
 
 export const connectDB = async (): Promise<void> => {
     await mongoose.connect(env.MONGO_URI)
-    console.log("DB connected...")
+    console.log("DB connected......")
 }
